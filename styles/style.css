@@ -1,0 +1,58 @@
+body {
+  background-color: #DEDEE0;
+  font-family: 'Roboto', sans-serif;
+  color: #2B303A;
+  
+}
+
+header{
+  display: block;
+  margin: 32px;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 56px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.gridContainer {
+  border-color: #2B303A;
+  border-width: 4px;
+  border-style: solid;
+  display: grid;
+  width: 600px;
+  height: 600px;
+}
+
+.gridElement {
+  background-color: white;
+}
+
+.buttonContainer {
+  margin: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.options {
+  border-color: #2B303A;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 25px;
+  font-size: 24px;
+  padding: 8px;
+}
+
+.options:hover {
+  opacity: 0.6;
+}
+
