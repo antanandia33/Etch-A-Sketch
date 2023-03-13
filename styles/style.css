@@ -34,6 +34,9 @@ main {
 
 .gridElement {
   background-color: white;
+  border-color: #F5F5F5;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .buttonContainer {
