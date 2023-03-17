@@ -64,6 +64,7 @@ h3 {
   border-color: #F5F5F5;
   border-width: 1px;
   border-style: solid;
+  cursor: pointer;
 }
 
 .options {
@@ -91,4 +92,9 @@ h3 {
 
 #colorChooser::-webkit-color-swatch {
   border-radius: 25%;
+}
+
+.active {
+  background-color: #2B303A;
+  color: white;
 }
