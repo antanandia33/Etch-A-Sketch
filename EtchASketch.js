@@ -9,7 +9,8 @@ function changeColor(e) {
   if(e.type === 'mouseover' && !mouseDown) {
     return;
   }
-  e.target.style.backgroundColor = '#2B303A';
+  color = document.getElementById('colorChooser').value;
+  e.target.style.backgroundColor = color;
 }
 
 function setupGrid(gridSize) {
@@ -29,6 +30,7 @@ const clearButton = document.getElementById('clearButton');
 const smallButton = document.getElementById('smallButton');
 const mediumButton = document.getElementById('mediumButton');
 const largeButton = document.getElementById('largeButton');
+let color = document.getElementById('colorChooser').value;
 let size = 16;
 let mouseDown = false;
 document.body.onmousedown = () => (mouseDown = true);

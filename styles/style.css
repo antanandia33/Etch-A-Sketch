@@ -18,9 +18,36 @@ header{
 
 main {
   display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+
+.settingsContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
+}
 
+h2 {
+  font-size: 36px;
+  margin-bottom: -12px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: -24px;
+}
+
+#colorChooser {
+  margin-bottom: 24px;
 }
 
 .gridContainer {
@@ -39,13 +66,6 @@ main {
   border-style: solid;
 }
 
-.buttonContainer {
-  margin: 24px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
 .options {
   border-color: #2B303A;
   border-width: 4px;
@@ -53,9 +73,22 @@ main {
   border-radius: 25px;
   font-size: 24px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .options:hover {
   opacity: 0.6;
 }
 
+#colorChooser {
+  border: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#colorChooser::-webkit-color-swatch {
+  border-radius: 25%;
+}
