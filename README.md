@@ -3,4 +3,4 @@
 Etch-A-Sketch web app created with HTML, CSS, and Javascript
 
 
-![](./assets/Etch-A-Sketch%20screenshot.png)
+![](./assets/Screenshot%202023-03-17%20002258.png)
